@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-10-08T16:49:33.871Z",
+  "categories": [
+    {
+      "slug": "bath",
+      "name": "Bath",
+      "path": "bath",
+      "depth": 0,
+      "children": [
+        "bath/bath-slippers",
+        "bath/towels"
+      ],
+      "productCount": 0,
+      "totalProductCount": 44,
+      "seo": {
+        "title": "Bath - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "bath-slippers",
+      "name": "Bath Slippers",
+      "path": "bath/bath-slippers",
+      "parentPath": "bath",
+      "depth": 1,
+      "children": [],
+      "productCount": 4,
+      "totalProductCount": 4,
+      "seo": {
+        "title": "Bath Slippers - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "towels",
+      "name": "Towels",
+      "path": "bath/towels",
+      "parentPath": "bath",
+      "depth": 1,
+      "children": [
+        "bath/towels/bath-towel",
+        "bath/towels/bathrobes",
+        "bath/towels/face-towel",
+        "bath/towels/hand-towel",
+        "bath/towels/kitchen-towel",
+        "bath/towels/shower-wrap"
+      ],
+      "productCount": 0,
+      "totalProductCount": 40,
+      "seo": {
+        "title": "Towels - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "bath-towel",
+      "name": "Bath Towel",
+      "path": "bath/towels/bath-towel",
+      "parentPath": "bath/towels",
+      "depth": 2,
+      "children": [],
+      "productCount": 7,
+      "totalProductCount": 7,
+      "seo": {
+        "title": "Bath Towel - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "bathrobes",
+      "name": "Bathrobes",
+      "path": "bath/towels/bathrobes",
+      "parentPath": "bath/towels",
+      "depth": 2,
+      "children": [
+        "bath/towels/bathrobes/kids-bathrobe"
+      ],
+      "productCount": 11,
+      "totalProductCount": 15,
+      "seo": {
+        "title": "Bathrobes - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "kids-bathrobe",
+      "name": "Kids bathrobe",
+      "path": "bath/towels/bathrobes/kids-bathrobe",
+      "parentPath": "bath/towels/bathrobes",
+      "depth": 3,
+      "children": [],
+      "productCount": 4,
+      "totalProductCount": 4,
+      "seo": {
+        "title": "Kids bathrobe - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "face-towel",
+      "name": "Face Towel",
+      "path": "bath/towels/face-towel",
+      "parentPath": "bath/towels",
+      "depth": 2,
+      "children": [],
+      "productCount": 2,
+      "totalProductCount": 2,
+      "seo": {
+        "title": "Face Towel - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "hand-towel",
+      "name": "Hand Towel",
+      "path": "bath/towels/hand-towel",
+      "parentPath": "bath/towels",
+      "depth": 2,
+      "children": [],
+      "productCount": 3,
+      "totalProductCount": 3,
+      "seo": {
+        "title": "Hand Towel - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "kitchen-towel",
+      "name": "Kitchen Towel",
+      "path": "bath/towels/kitchen-towel",
+      "parentPath": "bath/towels",
+      "depth": 2,
+      "children": [],
+      "productCount": 1,
+      "totalProductCount": 1,
+      "seo": {
+        "title": "Kitchen Towel - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "shower-wrap",
+      "name": "Shower Wrap",
+      "path": "bath/towels/shower-wrap",
+      "parentPath": "bath/towels",
+      "depth": 2,
+      "children": [],
+      "productCount": 12,
+      "totalProductCount": 12,
+      "seo": {
+        "title": "Shower Wrap - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "bedding",
+      "name": "Bedding",
+      "path": "bedding",
+      "depth": 0,
+      "children": [
+        "bedding/blankets-throws",
+        "bedding/sheet-pillow-cases"
+      ],
+      "productCount": 0,
+      "totalProductCount": 15,
+      "seo": {
+        "title": "Bedding - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "blankets-throws",
+      "name": "Blankets & Throws",
+      "path": "bedding/blankets-throws",
+      "parentPath": "bedding",
+      "depth": 1,
+      "children": [],
+      "productCount": 5,
+      "totalProductCount": 5,
+      "seo": {
+        "title": "Blankets & Throws - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "sheet-pillow-cases",
+      "name": "Sheet & Pillow Cases",
+      "path": "bedding/sheet-pillow-cases",
+      "parentPath": "bedding",
+      "depth": 1,
+      "children": [],
+      "productCount": 10,
+      "totalProductCount": 10,
+      "seo": {
+        "title": "Sheet & Pillow Cases - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "leggings",
+      "name": "Leggings",
+      "path": "leggings",
+      "depth": 0,
+      "children": [],
+      "productCount": 3,
+      "totalProductCount": 3,
+      "seo": {
+        "title": "Leggings - JAF Global Trading"
+      }
+    },
+    {
+      "slug": "trousers",
+      "name": "Trousers",
+      "path": "trousers",
+      "depth": 0,
+      "children": [],
+      "productCount": 1,
+      "totalProductCount": 1,
+      "seo": {
+        "title": "Trousers - JAF Global Trading"
+      }
+    }
+  ]
+}

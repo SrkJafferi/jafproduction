@@ -1,0 +1,766 @@
+{
+  "generatedAt": "2026-10-08T16:49:33.866Z",
+  "counts": {
+    "products": 63,
+    "withPrice": 14,
+    "onSale": 12,
+    "withSku": 50,
+    "withSpecs": 54,
+    "withImages": 63,
+    "withoutImages": 0
+  },
+  "issues": [
+    {
+      "severity": "info",
+      "code": "slug-match-low-confidence",
+      "message": "Slug matched with low confidence (0.59) — review data/data-quality.json.",
+      "product": "King Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 180*200*35 cm - Pink",
+      "slug": "king-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-18020035-cm-pink"
+    },
+    {
+      "severity": "info",
+      "code": "slug-match-low-confidence",
+      "message": "Slug matched with low confidence (0.59) — review data/data-quality.json.",
+      "product": "King Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 180*200*35 cm - Red",
+      "slug": "king-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-18020035-cm-red"
+    },
+    {
+      "severity": "info",
+      "code": "slug-match-low-confidence",
+      "message": "Slug matched with low confidence (0.59) — review data/data-quality.json.",
+      "product": "Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Black",
+      "slug": "single-bed-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-12020035-cm-black"
+    },
+    {
+      "severity": "info",
+      "code": "slug-match-low-confidence",
+      "message": "Slug matched with low confidence (0.59) — review data/data-quality.json.",
+      "product": "Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Blue",
+      "slug": "single-bed-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-12020035-cm-blue"
+    },
+    {
+      "severity": "info",
+      "code": "slug-match-low-confidence",
+      "message": "Slug matched with low confidence (0.59) — review data/data-quality.json.",
+      "product": "Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Yellow",
+      "slug": "single-bed-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-12020035-cm-yellow"
+    },
+    {
+      "severity": "info",
+      "code": "duplicate-content",
+      "message": "2 products share identical description content — likely a copy/paste in the old catalogue: sky-blue-slipper-cotton-super-soft-luxury-250-gsm-l-28-cm-x-w-11-cm | black-slipper-cotton-super-soft-luxury-250-gsm-l-28-cm-x-w-11-cm"
+    },
+    {
+      "severity": "info",
+      "code": "duplicate-content",
+      "message": "5 products share identical description content — likely a copy/paste in the old catalogue: supremo-king-lilac-high-quality-flannel-blanket-220-x-240-king-size | supremo-king-ruby-high-quality-flannel-blanket-220-x-240-king-size | supremo-king-blue-strips-high-quality-flannel-blanket-220-x-240-king-size | supremo-king-stars-high-quality-flannel-blanket-220-x-240-king-size | high-quality-flannel-blanket-220-x-240-king-size-supremo-king-lilac"
+    },
+    {
+      "severity": "info",
+      "code": "duplicate-content",
+      "message": "2 products share identical description content — likely a copy/paste in the old catalogue: black-winter-supersoft-lycra-legging-super-soft-cotton-medium-size | black-winter-supersoft-lycra-legging-super-soft-cotton-7-to-8-years-size"
+    },
+    {
+      "severity": "warning",
+      "code": "metadata-colour-mismatch",
+      "message": "Harvested metadata mentions \"sand\", which this product does not: 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - White",
+      "product": "100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - White",
+      "slug": "100-cotton-70-140-bath-towel-550-gsm-super-soft-high-absorbent-luxury-bath-towel-white"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Blue"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Blue"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Pink Color"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Pink Color"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Purple"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Purple"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: Cotton satin fitted bedsheet Queen size 280 TC size 160* 200 * 33cm - Deep Teal"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Cotton satin fitted bedsheet Queen size 280 TC size 160* 200 * 33cm - Deep Teal"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: Cotton satin fitted bedsheet Queen size 300 TC size 160* 200 * 33cm - White Striped"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Cotton satin fitted bedsheet Queen size 300 TC size 160* 200 * 33cm - White Striped"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: Terry Bathrobe - 100% Cotton Terry Silky Soft Spa Quality Comfort – Shawl Collar & Pocket - Sky Blue"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: Terry Bathrobe - 100% Cotton Terry Silky Soft Spa Quality Comfort – Shawl Collar & Pocket - Blossom Pink Color"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: White Bath Slipper - Cotton (Super soft luxury) 250 GSM L 28 cm x W 11 cm"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban (Sky blue) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban (Fushia) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban (Blossom Pink) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: Supremo King Lilac High Quality Flannel Blanket - 220 X 240 King Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Supremo King Lilac High Quality Flannel Blanket - 220 X 240 King Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Supremo King Ruby High Quality Flannel Blanket - 220 X 240 King Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Supremo King Blue Strips High Quality Flannel Blanket - 220 X 240 King Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Supremo King Stars High Quality Flannel Blanket - 220 X 240 King Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Grey Winter Supersoft Trouser - Super Soft Cotton - Medium Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Black Winter Supersoft Lycra Legging - Super Soft Cotton - Medium Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Black Winter Supersoft Lycra Legging - Super Soft Cotton - 7 to 8 Year's Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): King Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 180*200*35 cm - Hard Blue"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): King Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 180*200*35 cm - Pink"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: King Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 180*200*35 cm - Red"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): King Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 180*200*35 cm - Red"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Black"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Red"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Blue"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Yellow"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Fushia - S/M Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Fushia - S/M Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Fushia - Kids Size (08 Years To 10 Years)"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Purple - XLX Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Purple - Kids Size (08 Years To 10 Years)"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Sand - XLX Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Sand - Kids Size (08 Years To 10 Years)"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Blue - XLX Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Blue - XLX Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Waffle Bathrobe - Woven Cotton ( Super Soft Luxury Bathrobe) - White - XL Size"
+    },
+    {
+      "severity": "critical",
+      "code": "source-export",
+      "message": "Suspiciously low source price (PKR 10) left untouched pending client confirmation: Hair Wrap Turban (Yellow) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "warning",
+      "code": "missing-sku",
+      "message": "Missing SKU: Hair Wrap Turban (Pink) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban (Pink) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban (Red) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban (Black) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban (Blue) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban (Cream) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Black"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Grey"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Sand"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 100% Cotton – 5 Piece (34 *54) Velour Super Soft Cotton Luxury Hand Towel – Cream"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Waffle Bathrobe For Kids For Up to 11 Years"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 3 Piece Face Towel Set - Blue"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Fitted Bedsheet King Size with 1 Bedsheet 180X200x35 Cm + 2 Pillow Cases + 2 Pillow Covers - Pink"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): High Quality Flannel Blanket 220 X 240 King Size-Supremo King Lilac"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 5 piece Set Velour cotton Super soft luxury face Towel Size Length 30 cm * Width 30 cm."
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 6 Piece Kitchen Towel Set 42x28 CM"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban, 2 Piece set Cotton (Super soft luxury) 380 GSM - Black"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Hair Wrap Turban, 2 Piece set Cotton (Super soft luxury) 380 GSM - Purple"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): Super Soft Lycra Cotton Leggings Black | Medium Size"
+    },
+    {
+      "severity": "info",
+      "code": "no-source-price",
+      "message": "No price in source (displayed as \"Ask for Price\"): 100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - White"
+    }
+  ],
+  "slugMatches": [
+    {
+      "name": "100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Blue",
+      "slug": "100-cotton-70-140-bath-towel-550-gsm-super-soft-high-absorbent-luxury-bath-towel-royal-blue",
+      "score": 1.160232558139535,
+      "method": "score"
+    },
+    {
+      "name": "100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Pink Color",
+      "slug": "100-cotton-70-140-bath-towel-550-gsm-super-soft-high-absorbent-luxury-bath-towel-pink-colour",
+      "score": 1.160232558139535,
+      "method": "score"
+    },
+    {
+      "name": "100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Purple",
+      "slug": "100-cotton-70-140-bath-towel-550-gsm-super-soft-high-absorbent-luxury-bath-towel-purple",
+      "score": 1.23,
+      "method": "score"
+    },
+    {
+      "name": "Cotton satin fitted bedsheet Queen size 280 TC size 160* 200 * 33cm - Deep Teal",
+      "slug": "deep-teal-cotton-satin-fitted-bedsheet-queen-size-300-tc-size-160-200-33cm",
+      "score": 1.0425,
+      "method": "score"
+    },
+    {
+      "name": "Cotton satin fitted bedsheet Queen size 300 TC size 160* 200 * 33cm - White Striped",
+      "slug": "cotton-satin-fitted-bedsheet-queen-size-300-tc-size-160-200-33cm-white-striped",
+      "score": 1.23,
+      "method": "score"
+    },
+    {
+      "name": "Terry Bathrobe - 100% Cotton Terry Silky Soft Spa Quality Comfort – Shawl Collar & Pocket - Sky Blue",
+      "slug": "bathrobe-100-cotton-terry-silky-soft-spa-quality-comfort-shawl-collar-pocket-ocean-blue-color-1-piece",
+      "score": 1,
+      "method": "override"
+    },
+    {
+      "name": "Terry Bathrobe - 100% Cotton Terry Silky Soft Spa Quality Comfort – Shawl Collar & Pocket - Blossom Pink Color",
+      "slug": "bathrobe-100-cotton-terry-silky-soft-spa-quality-comfort-shawl-collar-pocket-blossom-pink-color-1-piece",
+      "score": 1.23,
+      "method": "score"
+    },
+    {
+      "name": "White Bath Slipper - Cotton (Super soft luxury) 250 GSM L 28 cm x W 11 cm",
+      "slug": "white-bath-slipper-cotton-super-soft-luxury-250-gsm-l-28-cm-x-w-11-cm",
+      "score": 1.23,
+      "method": "score"
+    },
+    {
+      "name": "Sky blue Slipper - Cotton (Super soft luxury) 250 GSM L 28 cm x W 11 cm",
+      "slug": "sky-blue-slipper-cotton-super-soft-luxury-250-gsm-l-28-cm-x-w-11-cm",
+      "score": 1.1087878787878789,
+      "method": "score"
+    },
+    {
+      "name": "Fushia Bath Slipper - Cotton (Super soft luxury) 250 GSM L 28 cm x W 11 cm",
+      "slug": "fushia-bath-slipper-cotton-super-soft-luxury-250-gsm-l-28-cm-x-w-11-cm",
+      "score": 1.1196551724137933,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban (Sky blue) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches",
+      "slug": "hair-wrap-turban-sky-blue-cotton-super-soft-luxury-380-gsm-l-26-w-10-5-inches",
+      "score": 1.1815151515151516,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban (Fushia) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches",
+      "slug": "hair-wrap-turban-fushia-cotton-super-soft-luxury-380-gsm-l-26-w-10-5-inches",
+      "score": 1.1748275862068966,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban (Blossom Pink) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches",
+      "slug": "hair-wrap-turban-blossom-pink-cotton-super-soft-luxury-380-gsm-l-26-w-10-5-inches",
+      "score": 1.1572727272727275,
+      "method": "score"
+    },
+    {
+      "name": "Supremo King Lilac High Quality Flannel Blanket - 220 X 240 King Size",
+      "slug": "supremo-king-lilac-high-quality-flannel-blanket-220-x-240-king-size",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Supremo King Ruby High Quality Flannel Blanket - 220 X 240 King Size",
+      "slug": "supremo-king-ruby-high-quality-flannel-blanket-220-x-240-king-size",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Supremo King Blue Strips High Quality Flannel Blanket - 220 X 240 King Size",
+      "slug": "supremo-king-blue-strips-high-quality-flannel-blanket-220-x-240-king-size",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Supremo King Stars High Quality Flannel Blanket - 220 X 240 King Size",
+      "slug": "supremo-king-stars-high-quality-flannel-blanket-220-x-240-king-size",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Grey Winter Supersoft Trouser - Super Soft Cotton - Medium Size",
+      "slug": "grey-winter-supersoft-lycra-trouser-super-soft-cotton-medium-size",
+      "score": 1.0350000000000001,
+      "method": "score"
+    },
+    {
+      "name": "Black Winter Supersoft Lycra Legging - Super Soft Cotton - Medium Size",
+      "slug": "black-winter-supersoft-lycra-legging-super-soft-cotton-medium-size",
+      "score": 1,
+      "method": "override"
+    },
+    {
+      "name": "Black Winter Supersoft Lycra Legging - Super Soft Cotton - 7 to 8 Year's Size",
+      "slug": "black-winter-supersoft-lycra-legging-super-soft-cotton-7-to-8-years-size",
+      "score": 1,
+      "method": "override"
+    },
+    {
+      "name": "King Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 180*200*35 cm - Hard Blue",
+      "slug": "king-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-18020035-cm-hard-blue",
+      "score": 0.6808547008547008,
+      "method": "score"
+    },
+    {
+      "name": "King Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 180*200*35 cm - Pink",
+      "slug": "king-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-18020035-cm-pink",
+      "score": 0.5857142857142856,
+      "method": "score"
+    },
+    {
+      "name": "King Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 180*200*35 cm - Red",
+      "slug": "king-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-18020035-cm-red",
+      "score": 0.5857142857142856,
+      "method": "score"
+    },
+    {
+      "name": "Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Black",
+      "slug": "single-bed-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-12020035-cm-black",
+      "score": 0.5936406995230525,
+      "method": "score"
+    },
+    {
+      "name": "Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Red",
+      "slug": "single-bed-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-12020035-cm-red",
+      "score": 1,
+      "method": "override"
+    },
+    {
+      "name": "Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Blue",
+      "slug": "single-bed-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-12020035-cm-blue",
+      "score": 0.5936406995230525,
+      "method": "score"
+    },
+    {
+      "name": "Single Bed Size Microfiber Fitted Bedsheet with Pillow & Cushion Covers - 120*200*35 cm - Yellow",
+      "slug": "single-bed-size-microfiber-fitted-bedsheet-with-pillow-cushion-covers-12020035-cm-yellow",
+      "score": 0.5936406995230525,
+      "method": "score"
+    },
+    {
+      "name": "Terry Bathrobe - 100% Cotton Terry Silky Soft Spa Quality Comfort – Shawl Collar & Pocket - White",
+      "slug": "terry-bathrobe-100-cotton-terry-silky-soft-spa-quality-comfort-shawl-collar-pocket-white",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Terry Bathrobe - 100% Cotton Terry Silky Soft Spa Quality Comfort – Shawl Collar & Pocket - Black",
+      "slug": "terry-bathrobe-100-cotton-terry-silky-soft-spa-quality-comfort-shawl-collar-pocket-black",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Terry Bathrobe - 100% Cotton Terry Silky Soft Spa Quality Comfort – Shawl Collar & Pocket - Cream",
+      "slug": "terry-bathrobe-100-cotton-terry-silky-soft-spa-quality-comfort-shawl-collar-pocket-cream",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Terry Bathrobe - 100% Cotton Terry Silky Soft Spa Quality Comfort – Shawl Collar & Pocket - Mahroon",
+      "slug": "terry-bathrobe-100-cotton-terry-silky-soft-spa-quality-comfort-shawl-collar-pocket-mahroon",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Fushia - S/M Size",
+      "slug": "zero-twist-bathrobe-450-gsm-stable-cotton-super-soft-luxury-bathrobe-fushia-s-m-size",
+      "score": 1.1114814814814815,
+      "method": "score"
+    },
+    {
+      "name": "Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Fushia - Kids Size (08 Years To 10 Years)",
+      "slug": "zero-twist-bathrobe-450-gsm-stable-cotton-super-soft-luxury-bathrobe-fushia-kids-size-08-years-to-10-years",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Purple - XLX Size",
+      "slug": "zero-twist-bathrobe-450-gsm-stable-cotton-super-soft-luxury-bathrobe-purple-xlx-size",
+      "score": 1.1196551724137933,
+      "method": "score"
+    },
+    {
+      "name": "Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Purple - Kids Size (08 Years To 10 Years)",
+      "slug": "zero-twist-bathrobe-450-gsm-stable-cotton-super-soft-luxury-bathrobe-purple-kids-size-08-years-to-10-years",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Sand - XLX Size",
+      "slug": "zero-twist-bathrobe-450-gsm-stable-cotton-super-soft-luxury-bathrobe-sand-xlx-size",
+      "score": 1.1196551724137933,
+      "method": "score"
+    },
+    {
+      "name": "Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Sand - Kids Size (08 Years To 10 Years)",
+      "slug": "zero-twist-bathrobe-450-gsm-stable-cotton-super-soft-luxury-bathrobe-sand-kids-size-08-years-to-10-years",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Zero Twist Bathrobe  - 450 GSM Stable Cotton ( Super Soft Luxury Bathrobe) - Blue - XLX Size",
+      "slug": "zero-twist-bathrobe-450-gsm-stable-cotton-super-soft-luxury-bathrobe-blue-xlx-size",
+      "score": 1.1196551724137933,
+      "method": "score"
+    },
+    {
+      "name": "Waffle Bathrobe - Woven Cotton ( Super Soft Luxury Bathrobe) - White - XL Size",
+      "slug": "waffle-bathrobe-woven-cotton-super-soft-luxury-bathrobe-white-xl-size",
+      "score": 1.1500000000000001,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban (Yellow) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches",
+      "slug": "hair-wrap-turban-yellow-cotton-super-soft-luxury-380-gsm-l-26-w-10-5-inches",
+      "score": 1.1748275862068966,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban (Pink) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches",
+      "slug": "hair-wrap-turban-pink-cotton-super-soft-luxury-380-gsm-l-26-w-10-5-inches",
+      "score": 1.1748275862068966,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban (Red) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches",
+      "slug": "hair-wrap-turban-red-cotton-super-soft-luxury-380-gsm-l-26-w-10-5-inches",
+      "score": 1.1748275862068966,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban (Black) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches",
+      "slug": "hair-wrap-turban-black-cotton-super-soft-luxury-380-gsm-l-26-w-10-5-inches",
+      "score": 1.1748275862068966,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban (Blue) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches",
+      "slug": "hair-wrap-turban-blue-cotton-super-soft-luxury-380-gsm-l-26-w-10-5-inches",
+      "score": 1.1748275862068966,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban (Cream) - Cotton (Super Soft Luxury) 380 GSM L 26 * W 10.5 inches",
+      "slug": "hair-wrap-turban-cream-cotton-super-soft-luxury-380-gsm-l-26-w-10-5-inches",
+      "score": 1.1748275862068966,
+      "method": "score"
+    },
+    {
+      "name": "100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Black",
+      "slug": "100-cotton-70-140-bath-towel-550-gsm-super-soft-high-absorbent-luxury-bath-towel-black",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Grey",
+      "slug": "100-cotton-70-140-bath-towel-550-gsm-super-soft-high-absorbent-luxury-bath-towel-grey",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - Sand",
+      "slug": "100-cotton-70-140-bath-towel-550-gsm-super-soft-high-absorbent-luxury-bath-towel-sand",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "100% Cotton – 5 Piece (34 *54) Velour Super Soft Cotton Luxury Hand Towel – Cream",
+      "slug": "100-cotton-5-piece-34-54-velour-super-soft-cotton-luxury-hand-towel-cream",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "Waffle Bathrobe For Kids For Up to 11 Years",
+      "slug": "waffle-bathrobe-for-kids-for-up-to-11-years",
+      "score": 1.1157142857142859,
+      "method": "score"
+    },
+    {
+      "name": "3 Piece Face Towel Set - Blue",
+      "slug": "3-piece-face-towel-set-blue",
+      "score": 1.0966666666666667,
+      "method": "score"
+    },
+    {
+      "name": "Fitted Bedsheet King Size with 1 Bedsheet 180X200x35 Cm + 2 Pillow Cases + 2 Pillow Covers - Pink",
+      "slug": "fitted-bedsheet-king-size-with-1-bedsheet-180x200x35-cm-2-pillow-cases-2-pillow-covers-pink",
+      "score": 1.11,
+      "method": "score"
+    },
+    {
+      "name": "High Quality Flannel Blanket 220 X 240 King Size-Supremo King Lilac",
+      "slug": "high-quality-flannel-blanket-220-x-240-king-size-supremo-king-lilac",
+      "score": 1,
+      "method": "override"
+    },
+    {
+      "name": "5 piece Set Velour cotton Super soft luxury face Towel Size Length 30 cm * Width 30 cm.",
+      "slug": "5-piece-set-velour-cotton-super-soft-luxury-face-towel-size-length-30-cm-width-30-cm",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "6 Piece Kitchen Towel Set 42x28 CM",
+      "slug": "6-piece-kitchen-towel-set-42x28-cm",
+      "score": 1.1300000000000001,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban, 2 Piece set Cotton (Super soft luxury) 380 GSM - Black",
+      "slug": "hair-wrap-turban-2-piece-set-cotton-super-soft-luxury-380-gsm-black",
+      "score": 1.102,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban, 2 Piece set Cotton (Super soft luxury) 380 GSM - Purple",
+      "slug": "hair-wrap-turban-2-piece-set-cotton-super-soft-luxury-380-gsm-purple",
+      "score": 1.1660000000000001,
+      "method": "score"
+    },
+    {
+      "name": "Hair Wrap Turban, 2 Piece set Cotton (Super soft luxury) 380 GSM - Red",
+      "slug": "hair-wrap-turban-2-piece-set-cotton-super-soft-luxury-380-gsm-red",
+      "score": 1.1660000000000001,
+      "method": "score"
+    },
+    {
+      "name": "Super Soft Lycra Cotton Leggings Black | Medium Size",
+      "slug": "super-soft-lycra-leggings-medium",
+      "score": 0.94875,
+      "method": "score"
+    },
+    {
+      "name": "Black Slipper - Cotton (Super soft luxury) 250 GSM L 28 cm x W 11 cm",
+      "slug": "black-slipper-cotton-super-soft-luxury-250-gsm-l-28-cm-x-w-11-cm",
+      "score": 1.0920689655172415,
+      "method": "score"
+    },
+    {
+      "name": "4 Piece Super Soft luxury Natural Hand Towel Set - Length 90cm x Width 50cm.",
+      "slug": "4-piece-super-soft-luxury-natural-hand-towel-set-length-90cm-x-width-50cm",
+      "score": 1.0845454545454547,
+      "method": "score"
+    },
+    {
+      "name": "4 Piece Super Soft Cotton Luxury Face Towel 100% Cotton - White",
+      "slug": "4-piece-super-soft-cotton-luxury-face-towel-100-cotton-white",
+      "score": 1.08,
+      "method": "score"
+    },
+    {
+      "name": "100% Cotton - 70 * 140 Bath Towel 550 GSM Super Soft High Absorbent Luxury Bath Towel - White",
+      "slug": "100-cotton-70-140-bath-towel-550-gsm-super-soft-high-absorbent-luxury-bath-towel-white",
+      "score": 1.08,
+      "method": "score"
+    }
+  ]
+}
