@@ -7,7 +7,6 @@ import { CollectionShowcase } from '@/components/home/collection-showcase'
 import { FaqSection } from '@/components/home/faq-section'
 import { FeaturedShowcase } from '@/components/home/featured-showcase'
 import { Hero } from '@/components/home/hero'
-import { MarqueeStripe } from '@/components/home/marquee-stripe'
 import { ProductsReels } from '@/components/home/products-reels'
 import { SectionHeading, Swoosh } from '@/components/home/section-heading'
 import { Testimonials } from '@/components/home/testimonials'
@@ -134,15 +133,12 @@ export default function HomePage() {
           four seconds — with the copy set over it. */}
       <Hero images={heroImages.length > 0 ? heroImages : [ogImage]} />
 
-      {/* The brand lines, running edge to edge straight off the hero. */}
-      <MarqueeStripe />
-
       {/* Brand statement — the live homepage's own H1 copy. */}
       <section className="container-page py-12 text-center lg:py-14">
         <h1 className="mx-auto max-w-3xl text-[1.75rem] leading-tight font-medium text-navy sm:text-[2.125rem]">
           {brandStatement.heading}
         </h1>
-        <Swoosh className="mt-3 h-2 w-28" centered />
+        <Swoosh className="mt-0 h-2 w-28" centered />
         <p className="mx-auto mt-5 max-w-3xl text-[17px] leading-relaxed text-ink-soft">
           {brandStatement.body}
         </p>

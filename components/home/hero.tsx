@@ -1,6 +1,7 @@
 import { ArrowRight, Cloud, Hotel, Leaf } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { MarqueeStripe } from '@/components/home/marquee-stripe'
 import type { MediaImage } from '@/lib/catalogue/media'
 import { generalEnquiryUrl } from '@/lib/whatsapp'
 
@@ -41,8 +42,9 @@ export function Hero({ images }: { images: MediaImage[] }) {
     <section
       aria-label="JAF Global Trading — luxury home textiles"
       // Pulled up under the transparent header so the bar sits on the artwork.
-      // The offset matches the header's own height exactly.
-      className="-mt-16 pb-2.5 lg:-mt-[4.5rem]"
+      // The offset matches the header's own height. The marquee lives inside
+      // this section, directly after the artwork, with no spacing between them.
+      className="-mt-16 lg:-mt-[4.5rem]"
     >
       <div className="relative w-full overflow-hidden bg-cream">
         {/* The photographs are stacked and crossfade. Each is offset by a share of
@@ -173,6 +175,7 @@ export function Hero({ images }: { images: MediaImage[] }) {
           </div>
         </div>
       </div>
+      <MarqueeStripe />
     </section>
   )
 }
