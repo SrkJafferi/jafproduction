@@ -16,16 +16,13 @@ import { featuredProducts, productsInCategory } from '@/lib/catalogue'
 import { categoryPath } from '@/lib/catalogue/paths'
 import { brandStatement, collections } from '@/lib/content/site-content'
 import { buildMetadata } from '@/lib/seo/metadata'
-import { legacyPageMetadata } from '@/lib/seo/legacy-metadata'
 import { siteConfig } from '@/lib/site-config'
-
-const harvested = legacyPageMetadata('/')
 
 export const metadata: Metadata = buildMetadata({
   path: '/',
-  title: harvested.title ?? `${siteConfig.tagline} | ${siteConfig.name}`,
+  title: `${siteConfig.tagline} | ${siteConfig.name}`,
   titleMode: 'absolute',
-  description: harvested.description ?? siteConfig.description,
+  description: siteConfig.description,
 })
 
 /**

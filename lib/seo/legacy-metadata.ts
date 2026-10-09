@@ -7,7 +7,9 @@
  */
 
 import legacySeoFile from '@/data/legacy-seo.json'
-import { siteConfig } from '@/lib/site-config'
+
+// The harvested audit keys use the original storefront domain.
+const LEGACY_SITE_URL = 'https://jaftradings.com'
 
 type LegacyEntry = {
   kind: string
@@ -36,13 +38,13 @@ function lookup(key: string): LegacyMetadata {
 
 /** `/shop/`, `/about-us/`, `/contact-us/`, `/` … */
 export function legacyPageMetadata(path: string): LegacyMetadata {
-  return lookup(`${siteConfig.url}${path}`)
+  return lookup(`${LEGACY_SITE_URL}${path}`)
 }
 
 export function legacyProductMetadata(slug: string): LegacyMetadata {
-  return lookup(`${siteConfig.url}/product/${slug}/`)
+  return lookup(`${LEGACY_SITE_URL}/product/${slug}/`)
 }
 
 export function legacyCategoryMetadata(path: string): LegacyMetadata {
-  return lookup(`${siteConfig.url}/product-category/${path}/`)
+  return lookup(`${LEGACY_SITE_URL}/product-category/${path}/`)
 }

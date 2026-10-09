@@ -31,7 +31,14 @@ export function buildMetadata(seed: MetadataSeed): Metadata {
   const canonical = seed.canonicalPath ?? seed.path
   const images = seed.image
     ? [{ url: seed.image, width: 1200, height: 630, alt: seed.title ?? siteConfig.name }]
-    : undefined
+    : [{
+        url: siteConfig.media.ogImage,
+        secureUrl: new URL(siteConfig.media.ogImage, siteConfig.url).href,
+        type: 'image/jpeg',
+        width: siteConfig.media.ogImageWidth,
+        height: siteConfig.media.ogImageHeight,
+        alt: siteConfig.media.ogImageAlt,
+      }]
 
   const title = seed.title
     ? seed.titleMode === 'absolute'
@@ -46,18 +53,18 @@ export function buildMetadata(seed: MetadataSeed): Metadata {
     ...(seed.index === false ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       type: seed.path.startsWith('/product/') ? 'website' : 'website',
-      siteName: siteConfig.name,
+      siteName: siteConfig.ogSiteName,
       locale: 'en_US',
       url: canonical,
       ...(seed.title ? { title: seed.title } : {}),
       ...(seed.description ? { description: seed.description } : {}),
-      ...(images ? { images } : {}),
+      images,
     },
     twitter: {
       card: 'summary_large_image',
       ...(seed.title ? { title: seed.title } : {}),
       ...(seed.description ? { description: seed.description } : {}),
-      ...(seed.image ? { images: [seed.image] } : {}),
+      images: [seed.image ?? siteConfig.media.ogImage],
     },
   }
 }

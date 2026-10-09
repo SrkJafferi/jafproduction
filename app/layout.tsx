@@ -30,12 +30,19 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
   openGraph: {
     type: 'website',
-    siteName: siteConfig.name,
+    siteName: siteConfig.ogSiteName,
     locale: 'en_US',
     url: '/',
     title: `${siteConfig.tagline} | ${siteConfig.name}`,
     description: siteConfig.description,
-    images: [{ url: siteConfig.media.ogImage, width: 1200, height: 630, alt: siteConfig.name }],
+    images: [{
+      url: siteConfig.media.ogImage,
+      secureUrl: new URL(siteConfig.media.ogImage, siteConfig.url).href,
+      type: 'image/jpeg',
+      width: siteConfig.media.ogImageWidth,
+      height: siteConfig.media.ogImageHeight,
+      alt: siteConfig.media.ogImageAlt,
+    }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -46,7 +53,13 @@ export const metadata: Metadata = {
   icons: {
     icon: [{ url: siteConfig.media.logo, type: 'image/webp' }],
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    'max-snippet': -1,
+    'max-video-preview': -1,
+    'max-image-preview': 'large',
+  },
 }
 
 export const viewport: Viewport = {

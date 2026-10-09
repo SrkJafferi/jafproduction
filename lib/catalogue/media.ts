@@ -72,7 +72,7 @@ export const productPlaceholder: MediaImage = {
 
 export const ogImage: MediaImage = {
   src: siteConfig.media.ogImage,
-  width: 1200,
-  height: 630,
-  alt: siteConfig.name,
+  width: siteConfig.media.ogImageWidth,
+  height: siteConfig.media.ogImageHeight,
+  alt: siteConfig.media.ogImageAlt,
 }

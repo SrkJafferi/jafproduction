@@ -8,12 +8,13 @@
 
 export type CurrencyCode = 'PKR' | 'USD' | 'EUR' | 'AUD' | 'GBP'
 
-export const SITE_URL = 'https://jaftradings.com'
+export const SITE_URL = 'https://dev.jaftradings.com'
 
 export const siteConfig = {
   name: 'JAF Global Trading',
   /** Used where space is tight: header wordmark fallback, JSON-LD alternateName. */
   shortName: 'JAF Trading',
+  ogSiteName: 'JAF TRADING',
   url: SITE_URL,
   /** From the live homepage title — "Luxury Bath Towels, Bathrobes & Bedding". */
   tagline: 'Luxury Bath Towels, Bathrobes & Bedding',
@@ -58,7 +59,10 @@ export const siteConfig = {
   /** The three brand banners and hero film that ship with the site. */
   media: {
     logo: '/images/brand/jaftrading-logo.webp',
-    ogImage: '/images/brand/og-default.webp',
+    ogImage: '/images/brand/jaf-luxury-home-textiles.jpg',
+    ogImageWidth: 1672,
+    ogImageHeight: 941,
+    ogImageAlt: 'JAF Global Trading premium bath towels, bathrobes and bedding',
     heroVideo: '/videos/hero-banner.mp4',
     productPlaceholder: '/images/placeholders/product-placeholder.webp',
   },
